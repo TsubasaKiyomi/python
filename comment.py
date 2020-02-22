@@ -464,7 +464,3 @@ if is_ok:
 #     print(f)
 #     f +=1
 
-i=0
-for fruit['apple','banana','orange']:
-    print(i,fruit)
-    i += 1
