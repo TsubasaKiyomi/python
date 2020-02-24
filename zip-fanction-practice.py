@@ -50,12 +50,12 @@
 #     print(name, age)
 
 # zip関数はタプル(tuple)としても取得できる。
-names = ['taro','hanako','jiro','takeshi']
-ages = [25,30,27]
+# names = ['taro','hanako','jiro','takeshi']
+# ages = [25,30,27]
 
-# リストを結合する
-tp = zip (names, ages)
+# # リストを結合する
+# tp = zip (names, ages)
 
-# タプルの要素を取得
-for val in tp:
-    print(val)
+# # タプルの要素を取得
+# for val in tp:
+#     print(val)

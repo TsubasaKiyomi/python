@@ -1,3 +1,5 @@
+# enumerate = 数え上げる　列挙する
+
 # i = 0
 # for fruit in ['apple','banana','orange']:
 #     print(i, fruit)
@@ -8,7 +10,3 @@
 # for i,fruit in enumerate(['apple','banana','orange']):
 #     print(i, fruit)
 
-def hello(str):
-    print(str)
-    
-hello("Hello World!")
