@@ -1,4 +1,17 @@
 t = (1,2,3,4,5)
+ 
+
+r = []
+for i in t:
+    r.append(i)
+
+print(r)
+
+r = [i for i in t]
+print(r)
+
+t = (1,2,3,4,5)
+t2 = (5,6,7,8,9,10)
 
 r = []
 for i in t:
@@ -10,6 +23,7 @@ print(r)
 # リスト内包表記は１行で表示できる
 # forループで取り出してきたiをそのままリストに追記してる。
 # r = [i for i in t]
+# ２で割ったあまりが0
 r = [i for i in t if i % 2 == 0]
 print(r)
 
@@ -40,5 +54,4 @@ list_3 = [[i,j] for i in range(10) for j in range(10)]
 print(list_3)
 
 list_3 = [print("{}x{}={}".format(i,j,i*j))for i in range(1,10) for j in range(1,10)]
-
 
