@@ -14,3 +14,4 @@ print(d)
 # 文字であっても代入可能
 d['x']='abcde'
 print(d)
+
