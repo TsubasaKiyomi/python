@@ -41,11 +41,23 @@ while True:
 
 # elseは whlie ループ中breakしなければ（抜けなければ）else('')が出力される
 
+# count = 0
+
+# while count < 5:
+#     if count == 6:
+#         break
+#     print(count)
+#     count += 1
+# else:
+#     print('done')
 count = 0
 
 while count < 5:
     if count == 6:
         break
+    elif count ==3:
+        count += 1
+        continue
     print(count)
     count += 1
 else:
